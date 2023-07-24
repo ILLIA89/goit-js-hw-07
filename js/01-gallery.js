@@ -47,9 +47,7 @@ openModal(bigImgUrl,imgId)
 
 function openModal(bigImgUrl, imgId) {
     const instance = basicLightbox.create(`
-        <div class="modal">
             <img src="${bigImgUrl}"/>
-        </div>
     `);
   instance.show()
 
